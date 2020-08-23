@@ -6,4 +6,5 @@ contents = requests.get(url)
 #print(contents.text)
 
 response = bs4.BeautifulSoup(contents.text, "html.parser")
+
 print(response)
